@@ -85,7 +85,7 @@ class MainActivity : AppCompatActivity() {
         // Add elements
         numbers2.add(444)
         numbers2.add(22)
-        
+
         val value = Collections.disjoint(numbers, numbers2)
         println("Two lists are disjoint: $value")
     }
